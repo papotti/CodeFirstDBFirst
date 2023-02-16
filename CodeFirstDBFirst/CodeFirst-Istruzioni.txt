@@ -1,0 +1,4 @@
+tramite package-manager
+usare ==>  Add-Migration xxxxx (dove XXX è il nome che vogliamo dare a questa serie di modifiche al DB)
+dopodiche usare ==> Update-Database
+
