@@ -8,5 +8,6 @@ public partial class Tabella2
     public string Pk { get; set; } = null!;
 
     public string? Descrizione { get; set; }
+
     public string? DescrizioneAggiuntiva { get; set; }
 }
