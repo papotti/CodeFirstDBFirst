@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=MSI;Database=provaCFDF;Trusted_Connection=True;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -Context TestContext -Schemas "dbo" -Force -OutputDir .\DB -NoPluralize
