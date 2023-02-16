@@ -30,6 +30,15 @@ namespace CodeFirstDBFirst.Migrations
                     b.Property<string>("Campo1")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Campo2")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Campo3")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Campo4")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Descr")
                         .HasMaxLength(10)
                         .HasColumnType("nchar(10)")

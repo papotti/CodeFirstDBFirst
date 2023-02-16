@@ -1,4 +1,13 @@
-tramite package-manager
-usare ==>  Add-Migration xxxxx (dove XXX è il nome che vogliamo dare a questa serie di modifiche al DB)
-dopodiche usare ==> Update-Database
+Modificare le classi delle Tabelle e/o il Context
+
+tramite package-manager:
+Add-Migration xxxxx (dove xxxxx è il nome che vogliamo dare a questa serie di modifiche al DB)
+
+In Application:
+tramite package-manager:
+Update-database
+
+per SYSTEM e PROD Compilare il progetto e lanciare l'eseguibile.
+
+
 
